@@ -1,0 +1,44 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    height: 50px;
+}
+
+.value {
+    display: flex;
+    list-style-type: none;
+    color: white; 
+    
+}
+.value li{
+    margin: 0 20px;
+    
+}
+.imgLogo {
+    height: 100px;
+    width: 100px;
+}
+.categories {
+    display: flex;
+    color: black;
+    align-items: center;  
+    list-style-type: none;
+    text-align: center;
+    margin-left: 550px;
+    font-weight: bold;
+    
+}
+.categories li {
+    text-align: center;
+    margin: 0 20px;
+    text-decoration: none;
+}
+  /* Target the links with the class 'navLink' */
+  .navLink {
+    text-decoration: none; /* Remove underline */
+    color: #000; /* Set your desired text color */
+  }
